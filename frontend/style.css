@@ -133,9 +133,11 @@ ul li.act a {
     font-size: 12px;
     position: absolute;
     top: -4px;
-    right: -5px;
+    right:-5px;
 }
-
+.fas .fa-shopping-cart i{
+    margin-top: -20px;
+}
 .cart-icon-container {
     position: relative;
     display: inline-block;
