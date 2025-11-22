@@ -157,12 +157,14 @@ ul li.act a {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+    height: 337px;
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
 }
 
 .hero p {
@@ -188,6 +190,28 @@ ul li.act a {
     border-color: var(--light-text);
 }
 
+.cta-button i {
+            margin-left: 6px;
+           
+            font-size: 1.2rem;
+            transition: var(--transition);
+           
+        }
+      
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(46, 204, 113, 0.5);
+            color: #fff;
+        }
+
+        .cta-button:hover::before {
+            opacity: 1;
+        }
+
+        .cta-button:active {
+            transform: translateY(-2px);
+        }
 /* Search and Filter Section */
 .filters-section {
     background-color: var(--light-text);
